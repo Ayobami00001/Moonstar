@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/original-7499ff437cb1b0cbce4895b5c1245c1a.jpg);
+    max-width: 100%;
+
+}
+.listing{
+    margin-left: 30vh;
+    display: flex;
+    gap: 10vh;
+}
+input{
+    border: #f5f088;
+}
+h1{
+    color: #f5f088;
+}
+.first{
+    justify-content: center;
+    padding-top: 30px;
+}
+.first input{
+    width: 35vh;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px #f5f088;
+    background-color: skyblue;
+    color: #f5f088;
+    outline-color: #f5f088;
+}
+.first p{
+    font-size: larger;
+    align-items: center;
+    color: #f5f088;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+}
+.second input{
+    width: 72vh;
+    height: 35px;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: #f5f088;
+    outline-color: #f5f088;
+} 
+.second p{
+    font-size: larger;
+    align-items: center;
+    color: #f5f088;
+}
+.third{
+    display: flex;
+    justify-content: center;
+}
+.third select{
+    width: 70vh;
+    height: 35px;
+    border-radius: 5px;
+    border: 3px #f5f088;
+    background-color: skyblue;
+    color: #f5f088;
+    text-justify: center;
+}
+.third p{
+    font-size: larger;
+    align-items: center;
+    color: #f5f088;
+}
+input:hover {
+    border-color: blue;
+}
+.forth{
+    justify-content: center;
+}
+.forth p{
+    padding-top: 13px;
+}
+.forth a{
+    text-decoration: none;
+    color: #f5f088;
+}
+.fifth{
+    justify-content: center;
+    margin-top: -23px;
+    padding-left: 16px;
+    
+}
+.fifth p{
+    padding-top: 13px;
+}
+.sixth{
+    justify-content: center;
+}
+.sixth button{
+    text-align: center;
+    padding: 10px 10vh;
+    background-color: #f5f088;
+    
+    
+}
+@media screen and (max-width: 850px) {
+    .listing{
+        margin-left: 0vh;
+        color: blue;
+        gap: 2vh;
+    }
+}

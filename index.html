@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/half-moon-night-svgrepo-com.svg" type="image/x-icon">
+    <title>MOONSTAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav style="margin-top: -8px;">
+        <nav class="navbar navbar-expand-lg"  >
+            <div class="container-fluid" style="background-color: skyblue; margin-top: 0px;">
+                <a class="navbar-brand d-flex" href="#" ><img src="./image/half-moon-night-svgrepo-com.svg" width="40px"><h1 style="color: #f5f088;">Moonstar</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="listing navbar-nav me-auto mb-lg-0 ">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #f5f088;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: #f5f088;">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #f5f088;">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: skyblue;">
+                        <li><a class="dropdown-item" href="#" style="color: #f5f088;">Action</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: #f5f088;">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" style="color: #f5f088;">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="false"  style="color: #f5f088;">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn " type="submit" style="background: #f5f088;">Search</button>
+                </form>
+                </div>
+            </div>
+            </nav>
+    </nav>
+    <form>
+        <h1 class="d-flex justify-content-center">Welcome To Moonstar</h1>
+        <div class=>
+            <div class="first d-flex gap-2">
+                <p>Name</p>
+                <input type="text" oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '') " placeholder=" First name" required>
+                <input type="text" oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '')" placeholder=" Last name" required>
+            </div>
+            <div class="second d-flex gap-2">
+                <p>Email</p>
+                <input type="email"   placeholder=" Email" autocomplete="on" required>
+            </div>
+            <div class="third d-flex gap-2 ">
+                <p>country</p>
+                <select id="country-select" name="country" class="form-select" style="width: 70vh;" required>
+                    <option value="" selected disabled>Select a country</option>
+                    <option value="af">Afghanistan</option>
+                    <option value="al">Albania</option>
+  <option value="dz">Algeria</option>
+  <option value="ad">Andorra</option>
+  <option value="ao">Angola</option>
+  <option value="ar">Argentina</option>
+  <option value="am">Armenia</option>
+  <option value="au">Australia</option>
+  <option value="at">Austria</option>
+  <option value="az">Azerbaijan</option>
+  <option value="bh">Bahrain</option>
+  <option value="bd">Bangladesh</option>
+  <option value="bb">Barbados</option>
+  <option value="by">Belarus</option>
+  <option value="be">Belgium</option>
+  <option value="bz">Belize</option>
+  <option value="bj">Benin</option>
+  <option value="bt">Bhutan</option>
+  <option value="bo">Bolivia</option>
+  <option value="ba">Bosnia and Herzegovina</option>
+  <option value="br">Brazil</option>
+  <option value="bg">Bulgaria</option>
+  <option value="kh">Cambodia</option>
+  <option value="cm">Cameroon</option>
+  <option value="ca">Canada</option>
+  <option value="cl">Chile</option>
+  <option value="cn">China</option>
+  <option value="co">Colombia</option>
+  <option value="cr">Costa Rica</option>
+  <option value="hr">Croatia</option>
+  <option value="cu">Cuba</option>
+  <option value="cy">Cyprus</option>
+  <option value="cz">Czech Republic</option>
+  <option value="dk">Denmark</option>
+  <option value="dj">Djibouti</option>
+  <option value="ec">Ecuador</option>
+  <option value="eg">Egypt</option>
+  <option value="sv">El Salvador</option>
+  <option value="ee">Estonia</option>
+  <option value="fi">Finland</option>
+  <option value="fr">France</option>
+  <option value="de">Germany</option>
+  <option value="gh">Ghana</option>
+  <option value="gr">Greece</option>
+  <option value="hk">Hong Kong</option>
+  <option value="hu">Hungary</option>
+  <option value="in">India</option>
+  <option value="id">Indonesia</option>
+  <option value="ir">Iran</option>
+  <option value="iq">Iraq</option>
+  <option value="ie">Ireland</option>
+  <option value="il">Israel</option>
+  <option value="it">Italy</option>
+  <option value="jm">Jamaica</option>
+  <option value="jp">Japan</option>
+  <option value="jo">Jordan</option>
+  <option value="ke">Kenya</option>
+  <option value="kr">South Korea</option>
+  <option value="kw">Kuwait</option>
+  <option value="lv">Latvia</option>
+  <option value="lb">Lebanon</option>
+  <option value="ly">Libya</option>
+  <option value="lt">Lithuania</option>
+  <option value="lu">Luxembourg</option>
+  <option value="my">Malaysia</option>
+  <option value="mx">Mexico</option>
+  <option value="ma">Morocco</option>
+  <option value="np">Nepal</option>
+  <option value="nl">Netherlands</option>
+  <option value="nz">New Zealand</option>
+  <option value="ng">Nigeria</option>
+  <option value="no">Norway</option>
+  <option value="pk">Pakistan</option>
+  <option value="pe">Peru</option>
+  <option value="ph">Philippines</option>
+  <option value="pl">Poland</option>
+  <option value="pt">Portugal</option>
+  <option value="qa">Qatar</option>
+  <option value="ro">Romania</option>
+  <option value="ru">Russia</option>
+  <option value="sa">Saudi Arabia</option>
+  <option value="sg">Singapore</option>
+  <option value="za">South Africa</option>
+  <option value="es">Spain</option>
+  <option value="lk">Sri Lanka</option>
+  <option value="se">Sweden</option>
+  <option value="ch">Switzerland</option>
+  <option value="tw">Taiwan</option>
+  <option value="th">Thailand</option>
+  <option value="tn">Tunisia</option>
+  <option value="tr">Turkey</option>
+  <option value="ua">Ukraine</option>
+  <option value="ae">United Arab Emirates</option>
+  <option value="gb">United Kingdom</option>
+  <option value="us">United States</option>
+  <option value="vn">Vietnam</option>
+  <option value="zm">Zambia</option>
+  <option value="zw">Zimbabwe</option>
+</select>
+
+            </div>
+        </div>
+        <div>
+            <div class="forth d-flex gap-2">
+                <input type="checkbox" required>
+                <p>I agree to the <a href="">Terms of service</a> and <a href="">Privacy Policy</a></p>
+            </div>
+            <div class="fifth d-flex gap-2" >
+                <input type="checkbox" required>
+                <p>Your email might be share with the speaker or host</p>
+            </div>
+        </div>
+        <div class="sixth d-flex ">
+            <button class="d-flex">Register Now</button>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
